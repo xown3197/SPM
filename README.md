@@ -66,7 +66,7 @@ print(classification_report(y_test_t, result))
 
 
 
-# 사용된 
+# 사용된 함수
 
 ## Histogram Intersection(HI) Kernel
 
