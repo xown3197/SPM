@@ -60,8 +60,10 @@ print(classification_report(y_test_t, result))
 | 2 | 2048 | HI | |
 
 
-> 코드북 사이즈 : 2048이 성능 향상에 최적이라는 증거
-
+> 코드북 사이즈 : 2048
+> 아래 그림의 정보를 토대로 2048 * 21 = 43,008을 선정해서 튜닝함
+![](https://github.com/xown3197/SPM/blob/master/Codebooksize.PNG)
+VQ = Beyond Bags of Features: Spatial Pyramid Matching for Recognizing Natural Scene Categories
 [출처](http://www.robots.ox.ac.uk/)
 
 
