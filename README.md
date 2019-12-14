@@ -30,6 +30,7 @@ print(classification_report(y_test_t, result))
 > Scaler : Srandard 적용
 > 각 train 30장을 75:25 비율로 split해서 테스트를 진행
 
+## 실험 결과
 
 |Level|CodeBook_Size|Kernel|Accuracy|
 |:---:|:-----------:|:----:|:------:|
@@ -59,9 +60,13 @@ print(classification_report(y_test_t, result))
 | 2 | 2048 | HI | |
 
 
-> 코드북 사이즈를 늘리는 방식으로 튜닝을 결정하게된 
+> 코드북 사이즈 : 2048이 성능 향상에 최적이라는 증거
 
 [출처](http://www.robots.ox.ac.uk/)
+
+
+
+# 사용된 
 
 ## Histogram Intersection(HI) Kernel
 
