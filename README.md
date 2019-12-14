@@ -1,5 +1,25 @@
 # Spatial Pyramid Matching (Bag of Visual Word)
 
+## Make CodeBook
+
+```
+train_des = []
+
+for img in tqdm(train_imgs):
+  kp, des = dense_sift_each(py0)
+  train_des.extend(des)
+
+print(type(des))
+
+num_centers = 1024
+dataset = torch.from_numpy(des).to(device_gpu)
+print('Starting clustering')
+centers, codes = cluster(dataset, num_centers)
+print(codes)
+codebook = centers.cpu().detach().numpy()
+
+```
+
 ## SPM main
 ```
 his = build(train_imgs, codebook) 
