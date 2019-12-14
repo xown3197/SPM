@@ -62,8 +62,8 @@ print(classification_report(y_test_t, result))
 | 2 | 256 | HI | |
 | 0   |  512 | Linear|0.39|
 | 0   |  512 | HI    |0.46|
-| 1 | 512 | Linear |0.44| 
-| 1 | 512 | HI | 0.49|
+| 1 | 512 | Linear |0.50| 
+| 1 | 512 | HI | 0.53|
 | 2 | 512 | Linear| |
 | 2 | 512 | HI | |
 | 0   |  1024 | Linear|0.31|
